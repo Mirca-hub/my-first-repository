@@ -1,0 +1,29 @@
+.container {
+  list-style-type: none;
+  background-color: #ffd62a;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  gap: 5px;
+  padding: 0;
+}
+
+.item {
+  background-color: #b02afe;
+  width: 50px;
+  height: 50px;
+}
+
+.second {
+  align-items: center;
+}
+
+.third {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fourth {
+  align-items: flex-end;
+  justify-content: flex-end;
+}

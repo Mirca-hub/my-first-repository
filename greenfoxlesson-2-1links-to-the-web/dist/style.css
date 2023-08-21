@@ -1,0 +1,18 @@
+a {
+  margin: 10px;
+  font-family: "Sen", cursive;
+  color: green;
+  text-decoration: none; rule;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:visited {
+  color: lightpink;
+}
+
+a:active {
+  color: lightyellow;
+}

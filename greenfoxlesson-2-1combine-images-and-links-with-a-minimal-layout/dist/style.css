@@ -1,0 +1,22 @@
+main {
+  font-family: "Sen", cursive;
+}
+
+img {
+  width: 150px;
+}
+
+a {
+  color: blue;
+  display: block;
+  white-space: nowrap;
+}
+
+div {
+  display: flex;
+}
+
+section {
+  width: 200px;
+  text-align: center;
+}

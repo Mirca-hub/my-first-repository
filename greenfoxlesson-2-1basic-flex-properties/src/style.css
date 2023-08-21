@@ -1,0 +1,41 @@
+.green {
+  background-color: #51d400;
+}
+
+.yellow {
+  background-color: #ffd62a;
+}
+
+.purple {
+  background-color: #b02afe;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.second {
+  flex-direction: row-reverse;
+}
+
+.third {
+  flex-direction: column-reverse;
+}
+
+.fourth {
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.fifth {
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: flex-end;
+}

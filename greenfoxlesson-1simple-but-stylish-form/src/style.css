@@ -1,0 +1,28 @@
+div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+label {
+  display: block;
+}
+
+input {
+  border: lightgreen 4px solid;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+button {
+  background-color: lightgreen;
+  border: lightgreen solid;
+  border-radius: 50px;
+  padding: 20px;
+  width: fit-content;
+  display: block;
+  font-family: "Baloo Thambi 2", cursive;
+}

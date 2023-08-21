@@ -1,0 +1,40 @@
+.purple {
+  height: 50px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: 980px;
+  gap: 20px;
+}
+
+.cyan {
+  height: 30px;
+  width: 100px;
+  background-color: cyan;
+}
+
+.width {
+  width: 120px;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  padding: 0;
+}
+
+.yellow {
+  height: 500px;
+  background-color: yellow;
+  width: 750px;
+}
+
+.lime {
+  height: 500px;
+  background-color: lime;
+  width: 250px;
+}

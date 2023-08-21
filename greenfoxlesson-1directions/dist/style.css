@@ -1,0 +1,30 @@
+main {
+  border: 4px solid #4285f4;
+  width: fit-content;
+}
+
+p {
+  font-family: "Baloo Thambi 2", cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+  padding: 20px 100px;
+}
+
+.first {
+  background: #e67676;
+}
+
+.second {
+  background: #f2f062;
+}
+
+.third {
+  background: #a9e6e6;
+}
+
+.fifth {
+  background: #7692e4;
+}

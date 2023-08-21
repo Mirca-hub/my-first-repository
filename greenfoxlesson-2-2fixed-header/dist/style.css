@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.header {
+  height: 70px;
+  background-color: purple;
+  display: flex;
+  top: 0;
+  align-items: center;
+  gap: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-button {
+  background-color: cyan;
+  width: 100px;
+  height: 30px;
+}
+
+.wide {
+  width: 130px;
+}
+
+.offset {
+  padding: 0 100px;
+}
+
+.page {
+  display: flex;
+  gap: 10px;
+  margin: 80px 0 10px 0;
+  flex-direction: column;
+}
+
+.left-pane {
+  background-color: lime;
+  width: 200px;
+  height: 500px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.right-pane {
+  background-color: yellow;
+  width: 100%;
+  height: 500px;
+}
+
+.footer {
+  background-color: lightgrey;
+  width: 100%;
+  height: 80px;
+}

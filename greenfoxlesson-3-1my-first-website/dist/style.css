@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+img {
+  width: 100%;
+  z-index: -1;
+  left: 0;
+}
+
+.header-texts {
+  color: #222;
+  position: absolute;
+  padding: 0 20% 15px 20%;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.headings {
+  font-family: Abril Fatface, serif;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.normal-texts {
+  font-family: Josefin Sans, sans-serif;
+  color: #222;
+  line-height: 1.5;
+  padding: 40px;
+}
+
+.subtitle-texts {
+  font-family: "Merriweather", cursive;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 20%;
+}
+
+blockquote {
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  padding: 50px 40px;
+  margin: 0 -40px;
+  position: relative;
+}
+
+blockquote::before {
+  content: "“";
+  font-size: 150px;
+  left: 0;
+  position: absolute;
+  top: -40px;
+}
